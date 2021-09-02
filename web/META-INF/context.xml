@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+
+    <Resource auth="Container"
+              name="jdbc/post"
+              driverClassName="org.postgresql.Driver"
+              type="javax.sql.DataSource"
+              url="jdbc:postgresql://10.10.20.237/edu"
+              username="edu"
+              password="edu"
+              maxActive="50"
+              maxIdle="20"
+              maxWait="5000"/>
+
+<!--    <Resource auth="Container"-->
+<!--              name="jdbc/test"-->
+<!--              driverClassName="org.postgresql.Driver"-->
+<!--              type="javax.sql.DataSource"-->
+<!--              url="jdbc:postgresql://localhost/postgres"-->
+<!--              username="postgres"-->
+<!--              password="1234"-->
+<!--              maxActive="50"-->
+<!--              maxIdle="20"-->
+<!--              maxWait="5000"/>-->
+</Context>
